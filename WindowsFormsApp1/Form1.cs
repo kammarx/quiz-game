@@ -22,6 +22,7 @@ namespace WindowsFormsApp1
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
+            MessageBox.Show("Heyo");
             Form2 f2  = new Form2(this);
             f2.Show();
             
