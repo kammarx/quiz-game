@@ -22,8 +22,8 @@ namespace WindowsFormsApp1
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            Form3 f3  = new Form3(this);
-            f3.Show();
+            Form2 f2  = new Form2(this);
+            f2.Show();
             
         }
 
