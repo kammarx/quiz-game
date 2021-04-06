@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        public Form3(Form1 f1)
         {
             InitializeComponent();
         }
@@ -22,9 +22,6 @@ namespace WindowsFormsApp1
 
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }
